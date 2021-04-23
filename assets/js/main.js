@@ -17,7 +17,7 @@ document.getElementById("chilometri").innerHTML = km + " km";
 //prezzo biglietto
 var prezzo = 0.21 * km;
 console.log(prezzo);
-document.getElementById("prezzo").innerHTML = prezzo + " €";
+document.getElementById("prezzo").innerHTML = prezzo.toFixed(2) + " €";
 
 //se minorenni sconto 20%, se over 65 sconto 40%
 var prezzoFinale;
