@@ -1,0 +1,20 @@
+.contenitore {
+  width: 60%;
+  margin: auto;
+  margin-top: 50px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: skyblue;
+  box-shadow: 5px 5px 2.5px rgb(68, 187, 235);
+}
+
+h1 {
+  text-align: center;
+}
+
+.titoli_2 {
+  background-color: teal;
+  border-radius: 20px;
+  padding: 5px;
+  text-align: center;
+}
